@@ -64,6 +64,20 @@ function total() {
 }
 console.log(total());
 
+function removeFromCart(item) {
+  for(let j=0; j< cart.length; j++){
+             if(cart[j].hasOwnProperty(item) === true){
+              Object.keys(cart[j]);
+             }
+             }
+  }
+  return cart;
+}
+console.log(removeFromCart('Apple'));
+function placeOrder(cardNumber) {
+  // write your code here
+}
+
 
 
 
