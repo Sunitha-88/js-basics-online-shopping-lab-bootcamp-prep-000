@@ -81,7 +81,7 @@ function placeOrder(cardNumber) {
  }
  else{
    
-   var bill=total
+   var bill=total;
    cart=[];
    return `Your total cost is $${bill}, which will be charged to the card ${cardNumber}.`;
  }
