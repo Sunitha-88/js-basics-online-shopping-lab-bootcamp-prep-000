@@ -73,7 +73,7 @@ function removeFromCart(item) {
   }
   return cart;
 }
-console.log(removeFromCart('Apple'));
+console.log(removeFromCart('Pineapple'));
 function placeOrder(cardNumber) {
   // write your code here
 }
