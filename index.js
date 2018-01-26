@@ -56,11 +56,11 @@ console.log(viewCart());
 
 console.log(cart);
 function total() {
-  var total=0;
+  var total1=0;
   for(let i=0; i<cart.length; i++){
-   total=parseInt(Object.values(cart[i]))+total;
+   total1=parseInt(Object.values(cart[i]))+total1;
   }
-  return total;
+  return total1;
 }
 console.log(total());
 
