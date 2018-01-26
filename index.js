@@ -74,7 +74,7 @@ function removeFromCart(item) {
 }
 console.log(removeFromCart('Apple'));
 function placeOrder(cardNumber) {
-  // write your code here
+ 
 }
 
 
