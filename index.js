@@ -55,12 +55,14 @@ function viewCart() {
 console.log(viewCart());
 
 console.log(cart);
+
+
 function total() {
-  var total1=0;
+  var total=0;
   for(let i=0; i<cart.length; i++){
-   total1=parseInt(Object.values(cart[i]))+total1;
+   total=parseInt(Object.values(cart[i]))+total;
   }
-  return total1;
+  return total;
 }
 console.log(total());
 
